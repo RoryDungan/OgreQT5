@@ -18,7 +18,8 @@ SOURCES += main.cpp\
     QTOgreWindow.cpp
 
 HEADERS  += MainWindow.hpp \
-    QTOgreWindow.hpp
+    QTOgreWindow.hpp \
+    SdkQtCameraMan.hpp
 
 FORMS    += MainWindow.ui
 
