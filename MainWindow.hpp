@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include "QTOgreWindow.hpp"
+
 namespace Ui {
 class MainWindow;
 }
@@ -17,6 +19,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    QTOgreWindow *ogreWindow;
 };
 
 #endif // MAINWINDOW_HPP
